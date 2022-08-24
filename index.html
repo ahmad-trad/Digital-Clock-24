@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Digital-Clock / 24-format</title>
+</head>
+<body>
+    <div class="digital-clock">
+        <i class="uil uil-ellipsis-v dot-menu-btn"></i>
+        <ul class="dot-menu">
+            <li class="dot-item">
+                <span class="clock-format-text">24-hour format</span>
+                <div class="menu-format-btn" data-format="12"></div>
+            </li>
+        </ul>
+        <div class="time">
+            <span class="hour"></span>
+            <span class="dot">:</span>
+            <span class="minutes"></span>
+            <div class="right-slied">
+                <span class="preiod"></span>
+                <span class="seconds"></span>
+            </div>
+        </div>
+        <div class="date">
+            <span class="mounth">mar</span>,
+            <span class="dayname">dec</span>
+            <span class="daynum">4</span>
+            <span class="yare">2022</span>
+        </div>
+    </div>
+
+    <script src="master.js"></script>
+</body>
+</html>
